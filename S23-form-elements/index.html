@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <a href="#job"> Job Application Form</a>
+    <a href="#marriage">Marriage Application Form</a>
+
+
+    <div id="job">
+    <h1 class="jobheading">Job Application Form</h1>
+    <form>
+    <fieldset>
+
+    <legend><span style="color:darkmagenta">Personal Information</span> </legend>
+    
+      <div>
+        <label for="name">Candidate Name</label>
+        <input id="name" />
+      </div>
+
+      <div>
+        <label>Aadhaar card Number</label>
+        <input />
+      </div>
+      <div>
+        <label> Type of Identification card</label>
+        <select>
+            <option><strong>--Select--</strong></option>
+            <option>Drivng license</option>
+            <option>Employer ID</option>
+            <option>Pan Card</option>
+            <option>Passport</option>
+            <option>School/College ID Card</option>
+            <option>Voter ID Card</option>
+        </select>
+      </div>
+      <div>
+        <label>Identification card Number</label>
+        <input />
+      </div>
+      <div>
+        <label>Gender</label>
+        <input list="gender" />
+        <datalist id="gender">
+          <option><strong>--Select Gender--</strong></option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Transgender</option>
+        </datalist>
+      </div>
+      <div>
+        <label>Date of Birth</label>
+        <input type="date" >
+      </div>
+      <div>
+        <label>Father's Name</label>
+        <input >
+      </div>
+      <div>
+        <label>Mother's Name</label>
+        <input >
+      </div>
+      <div>
+        <label>Mobile Number</label>
+        <input >
+      </div>
+      <div>
+        <label>Email ID</label>
+        <input >
+      </div>
+      <div>
+        <label for="countries">Nationality</label>
+        <select id="countries" name="countries">
+          <option value="usa">--Select--</option>
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+            <option value="brazil">Brazil</option>
+            <option value="south-africa">South Africa</option>
+            <option value="japan">Japan</option>
+            <option value="china">China</option>
+            <option value="russia">Russia</option>
+            <option value="mexico">Mexico</option>
+            <option value="italy">Italy</option>
+            <option value="spain">Spain</option>
+            <option value="netherlands">Netherlands</option>
+            <!-- Add more countries as needed -->
+        </select>
+      </div>
+
+        <div>
+        <label>State</label>
+        <select>
+          <option value=""><strong>--Select State--</strong></option>
+          <option value="andhra_pradesh">Andhra Pradesh</option>
+          <option value="arunachal_pradesh">Arunachal Pradesh</option>
+          <option value="assam">Assam</option>
+          <option value="bihar">Bihar</option>
+          <option value="chhattisgarh">Chhattisgarh</option>
+          <option value="goa">Goa</option>
+          <option value="gujarat">Gujarat</option>
+          <option value="haryana">Haryana</option>
+          <option value="himachal_pradesh">Himachal Pradesh</option>
+          <option value="jharkhand">Jharkhand</option>
+          <option value="karnataka">Karnataka</option>
+          <option value="kerala">Kerala</option>
+          <option value="madhya_pradesh">Madhya Pradesh</option>
+          <option value="maharashtra">Maharashtra</option>
+          <option value="manipur">Manipur</option>
+          <option value="meghalaya">Meghalaya</option>
+          <option value="mizoram">Mizoram</option>
+          <option value="nagaland">Nagaland</option>
+          <option value="odisha">Odisha</option>
+          <option value="punjab">Punjab</option>
+          <option value="rajasthan">Rajasthan</option>
+          <option value="sikkim">Sikkim</option>
+          <option value="tamil_nadu">Tamil Nadu</option>
+          <option value="telangana">Telangana</option>
+          <option value="tripura">Tripura</option>
+          <option value="uttar_pradesh">Uttar Pradesh</option>
+          <option value="uttarakhand">Uttarakhand</option>
+          <option value="west_bengal">West Bengal</option>
+          <option value="delhi">Delhi</option>
+          <option value="puducherry">Puducherry</option>
+          <option value="jammu_and_kashmir">Jammu & Kashmir</option>
+          <option value="ladakh">Ladakh</option>
+        </select>
+      </div>
+      <div>
+        <label>Address</label>
+        <textarea></textarea>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend><span style="color: darkmagenta;">Education Details</span></legend>
+      <div>
+        <label>10<sup>th</sup> class Education board</label>
+        <select>
+        <option value="">--Select a Center--</option>
+        <option value="center1">Center 1 - ABC School</option>
+        <option value="center2">Center 2 - XYZ College</option>
+        <option value="center3">Center 3 - DEF Institute</option>
+        <option value="center4">Center 4 - GHI Academy</option>
+        <option value="center5">Center 5 - JKL High School</option>
+      </select>
+      </div>
+      <div>
+      <label>Roll Number</label>
+      <input>
+      </div>
+      <div>
+       <label>Year of Passing</label>
+      <select>
+        <option>--select--</option>
+        <optgroup label="2000-2010">
+          <option>2000</option>
+          <option>2001</option>
+          <option>2002</option>
+          <option>2003</option>
+          <option>2004</option>
+          <option>2005</option>
+          <option>2006</option>
+          <option>2007</option>
+          <option>2008</option>
+          <option>2009</option>
+          <option>2010</option>
+          
+         </optgroup>
+         <optgroup label="2011-2020">
+          <option>2011</option>
+          <option>2012</option>
+          <option>2013</option>
+          <option>2014</option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+          <option>2019</option>
+          <option>2020</option>
+        </optgroup>
+
+        <optgroup label="2020-2025">
+          <option>2021</option>
+          <option>2022</option>
+          <option>2023</option>
+          <option>2024</option>
+          <option>2025</option>
+          
+        </optgroup>
+       </select>
+    </div>
+
+    <div>
+    <label>Highest Level of Education Qualification</label>
+     <select>
+      <option>--select--</option>
+      <option>Matriculation(10<sup>th</sup>)</option>
+      <option>Higher Secondary(10+2)</option>
+      <option>Diploma</option>
+      <option>Graduation</option>
+      <option>Post Graduation</option>
+     </select>
+    </div>
+  </fieldset>
+
+
+  <fieldset>
+    <legend><span style="color:darkmagenta">Salary Details</span></legend>
+    <div>
+   <label>Annual Fixed Salary(In INR)</label>
+   <input>
+  </div>
+  <div>
+   <label>Annual Variable Components (In INR)</label>
+   <input>
+  </div>
+  <div>
+    <label>Total Annual CTC (In INR)</label>
+    <input>
+   </div>
+   <div>
+    <label>Expected Annual CTC (In INR)</label>
+    <input>
+   </div>
+  </fieldset>
+
+      
+      <button type="reset" class="reset" style="background-color: lightcoral;">Reset</button>
+      <button class="submit" style="background-color: lightgreen;">submit</button>
+      
+    </form>
+</div>
+
+
+
+
+<div id="marriage">
+    <h1>Marriage Biodata Application form</h1>
+    <form class="marriageData">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+                <label>Name</label>
+                <input>
+            </div>
+            <div>
+                <label>Gender</label>
+                <select>
+                    <option>-----------Select-------------</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Transgender</option>
+                    
+                </select>
+            </div>
+            <div>
+                <label>Date of Birth</label>
+                <input type="date">
+            </div>
+
+            <div>
+                <label>Time of Birth</label>
+                <input type="time">
+            </div>
+
+            <div>
+                <label>Place of Birth</label>
+                <input>
+            </div>
+
+            <div>
+                <label>Complexion</label>
+                <input>
+            </div>
+            <div>
+                <label>Height</label>
+                <input>
+            </div>
+
+            <div>
+                <label>Gotra</label>
+                <input>
+            </div>
+
+            <div>
+                <label>Caste</label>
+                <input>
+            </div>
+            <div>
+                <label>Occupation</label>
+                <input>
+            </div>
+            <div>
+                <label>income</label>
+                <input>
+            </div>
+            <div>
+                <label>Education</label>
+                <input>
+            </div>
+        </fieldset>
+             <fieldset>
+                <legend>Family Details</legend>
+                <div>
+                    <label>Father's Name</label>
+                    <input>
+                </div>
+                <div>
+                    <label>Father's Occupation</label>
+                    <input>
+                </div>
+                <div>
+                    <label>Mother's Name</label>
+                    <input>
+                </div>
+                <div>
+                    <label>Mother's Occupation</label>
+                    <input>
+                </div>
+                <div>
+                    <label>Elder Brother/Sister</label>
+                    <input>
+                </div>
+                <div>
+                    <label>Younger Brother/Sister</label>
+                    <input>
+                </div>
+            </fieldset>
+          
+    <fieldset>
+        <legend>Contact Details</legend>
+            <div>
+                <label>Contact Person</label>
+                <input>
+            </div>
+            <div>
+                <label>Contact Number</label>
+                <input>
+            </div>
+            <div>
+                <label>Residential Address</label>
+                <textarea></textarea>
+            </div>
+        
+         </fieldset>
+         <button class="submit" style="background-color: aqua;">submit</button>
+    </form>
+</div>
+  </body>
+</html>

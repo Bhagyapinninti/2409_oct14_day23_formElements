@@ -1,0 +1,87 @@
+form{
+display: inline-block;
+}
+
+
+form label{
+    display: inline-block;
+    width: 300px;
+    font-size: 1.5rem;
+}
+form div{
+    margin: 20px;
+}
+
+form legend{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:khaki;
+    text-shadow: 10px 10px 10px black;
+}
+.jobheading{
+    text-align: center;
+    color:blue;
+    text-shadow: 10px 10px 10px black;
+}
+h1{
+    text-align: center;
+    color: aquamarine;
+    text-shadow: 10px 10px 10px black;
+}
+#marriage{
+    background-image: url(./image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 900px;
+    border: 10px ridge yellow;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    left: 278px;
+
+}
+form fieldset{
+    position: relative;
+    left: 70px;
+}
+form input,select,textarea{
+    width: 400px;
+}
+option{
+    text-align: center;
+    
+}
+#job{
+    background-image: url(./image/bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 900px;
+    border: 10px ridge yellow;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    left: 260px;
+
+}
+body{
+    background: linear-gradient(to left, cadetblue,darksalmon);
+}
+a{
+    background-color:darkslategray  ;
+    font-size: 1.3rem;
+    color: white;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+.reset{
+    position: relative;
+    left: 670px;
+    top: 5px;
+}
+.submit{
+    position: relative;
+    left: 700px;
+    top:5px;
+}
